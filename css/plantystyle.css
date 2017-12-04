@@ -4,14 +4,20 @@ nav li{
     font-size: 2.5em;
     font-weight: bold;
     text-align: center;
+    border-bottom: 3px solid #ffffff;
+    transition: border-bottom 0.7s ease-in-out;
 }
 nav a:link, nav a:visited {
     text-decoration: none;
     color: black;
 
 }
-nav li a:hover {
+nav li:hover {
     border-bottom: 3px solid #000000;
+}
+
+nav {
+    margin-bottom: 40px;
 }
 
 path {
@@ -21,6 +27,27 @@ svg {
     width: 100%;
 }
 
-#mid-img {
-    width: 100%;
+#top-img-container {
+    border: 4px solid #b6dac7;
+    padding: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+#top-img-container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#top-img {
+    position: relative;
+    right: 20px;
+    bottom: 20px;
+    z-index: -1;
+}
+
+#img-mobile {
+    margin-top: 25%;
+    left: -8,33%;
 }
