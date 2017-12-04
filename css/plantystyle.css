@@ -1,0 +1,26 @@
+nav li{
+    list-style: none;
+    font-family: "Times New Roman", "Georgia", serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+}
+nav a:link, nav a:visited {
+    text-decoration: none;
+    color: black;
+
+}
+nav li a:hover {
+    border-bottom: 3px solid #000000;
+}
+
+path {
+    fill: black;
+}
+svg {
+    width: 100%;
+}
+
+#mid-img {
+    width: 100%;
+}
